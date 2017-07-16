@@ -1,0 +1,8 @@
+-- Check current hostname:
+hostname
+
+-- To find out server status and its hostname 
+hostnamectl status
+
+-- here’s the command to change default CentOS 7 hostname without having to reboot
+hostnamectl set-hostname fqdn.host.name
